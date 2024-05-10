@@ -1,0 +1,42 @@
+nav {
+    background-color: white;
+  }
+  
+  
+  .navbar-brand {
+    color: black;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+  
+  
+  .navbar-brand .main-text {
+    padding-left: 4%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  
+  }
+  
+  
+  .navbar-brand .sub-text {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: -11px;
+    padding-left: 30%;
+    padding-bottom: 0%; 
+  }
+  
+  .navbar-brand:hover {
+    color: grey;
+  }
+  
+  .nav-link {
+    letter-spacing: -0.8px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }

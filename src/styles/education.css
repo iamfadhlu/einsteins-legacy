@@ -1,0 +1,21 @@
+
+#heading2 {
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 6%;
+    font-weight: 400  ;
+  
+  }
+  
+  .hr2 {
+    height: 2px;
+    background-color: darkgray;
+  
+  }
+  
+  .text {
+    font-size: medium;
+    font-weight: 500;
+  
+  }
+  
