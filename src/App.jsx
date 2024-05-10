@@ -4,6 +4,7 @@ import Carousel from '../src/components/carousel/carousel'
 import Life from './components/life/life';
 import Education from './components/education/education';
 import logo from './components/image/atomlogo.png'
+import Career from './components/career/career'
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
 
 
       <Carousel />
-      <br/>
+      <br />
       <h1 id="heading1" >Einstein's Life </h1>
 
       <Life />
@@ -58,7 +59,11 @@ function App() {
       <Education />
 
 
+      <section>
+        <Career />
+      </section>
     </div>
+
   );
 }
 
