@@ -9,7 +9,6 @@ body {
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
-    padding-top: 2%;
   
   }
   
@@ -37,10 +36,11 @@ body {
   }
   
   .txt2 {
-    padding-top: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
     font-size: medium;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
   
   }
   @keyframes slide-left {
