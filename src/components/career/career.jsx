@@ -1,31 +1,30 @@
 import React from 'react';
 import '../../styles/career.css';
 import graph1 from '../image/Mask group (1).png';
-import graph2 from '../image/Desktop - 1.png';
-import img3 from '../image/Einstein_patentoffice.jpg';
-import img4 from '../image/the newyorktimes.png';
-import img5 from '../image/scientificpap.png';
-import img6 from '../image/Albert_Einstein_(Nobel).png';
-import img7 from '../image/lossy-page1-440px-League_of_Nations_Commission_067.tif.jpg';
-import img8 from '../image/1919_eclipse_positive.jpg';
-import img9 from '../image/MillikanLemaitreEinstein.jpg';
-import img10 from '../image/Albert_Einstein_photo_1920.jpg';
-import img11 from '../image/440px-Photoelectric_effect_in_a_solid_-_diagram.svg.png';
-import img12 from '../image/Albert_Einstein_1921_(re-cropped).jpg';
-import img13 from '../image/anothernews.jpg';
-import img14 from '../image/Niels_Bohr_Albert_Einstein4_by_Ehrenfest_cr.jpg';
-import img15 from '../image/Solvay_conference_1927.jpg';
-import img16 from '../image/Einstein-Oslofjord_(cropped).jpg';
+import img1 from '../image/Einstein_patentoffice.jpg';
+import img2 from '../image/Einstein-with-habicht-and-solovine.jpg';
+import img3 from '../image/the newyorktimes.png';
+import img4 from '../image/Albert_Einstein_(Nobel).png';
+import img5 from '../image/lossy-page1-440px-League_of_Nations_Commission_067.tif.jpg';
+import img6 from '../image/1919_eclipse_positive.jpg';
+import img7 from '../image/MillikanLemaitreEinstein.jpg';
+import img8 from '../image/Albert_Einstein_photo_1920.jpg';
+import img9 from '../image/440px-Photoelectric_effect_in_a_solid_-_diagram.svg.png';
+import img10 from '../image/Albert_Einstein_1921_(re-cropped).jpg';
+import img11 from '../image/anothernews.jpg';
+import img12 from '../image/Niels_Bohr_Albert_Einstein4_by_Ehrenfest_cr.jpg';
+import img13 from '../image/Solvay_conference_1927.jpg';
+
 
 
 function career() {
     return (
         <div className="container">
             <h1 className="Header1">1908–1933: Early academic career</h1>
-            <hr />
+            <hr className="hr1" />
             <section>
                 <div className="clearfix">
-                    <img src={img3} id="image" className="col-md-3 float-md-start mb-3 me-md-3" alt="image" />
+                    <img src={img1} id="image" className="col-md-3 float-md-start mb-3 me-md-3" alt="image" />
                     <div className="text">
                         <p>
                             Einstein's career sent him to multiple countries.He earned his doctorate from the University of Zurich in 1905 and subsequently took on professor positions in Zurich (1909), Prague (1911) and Zurich again (1912).  Einstein's sabbatical as a civil servant approached its end in 1908, when he secured a junior teaching position at the University of Bern. In 1909, a lecture on relativistic electrodynamics that he gave at the University of Zurich, much admired by Alfred Kleiner, led to Zürich's luring him away from Bern with a newly created associate professorship. Promotion to a full professorship followed in April 1911, when he accepted a chair at the German Charles-Ferdinand University in Prague, a move which required him to become an Austrian citizen of the Austro-Hungarian Empire. His time in Prague saw him producing eleven research papers.Einstein's sabbatical as a civil servant approached its end in 1908, when he secured a junior teaching position at the University of Bern. In 1909, a lecture on relativistic electrodynamics that he gave at the University of Zurich, much admired by Alfred Kleiner, led to Zürich's luring him away from Bern with a newly created associate professorship. Promotion to a full professorship followed in April 1911, when he accepted a chair at the German Charles-Ferdinand University in Prague, a move which required him to become an Austrian citizen of the Austro-Hungarian Empire. His time in Prague saw him producing eleven research papers.
@@ -33,24 +32,12 @@ function career() {
                     </div>
                 </div>
             </section>
-            <br /><br />
-            <section>
-                <h2 className="h2ii">1900–1905: First scientific papers</h2>
-                <div className="clearfix">
-                    <img src={img5} id="image2" className="col-md-3 float-md-end mb-2 ms-md-3" alt="image" />
-                    <div className="text">
-                        Cover image of the PhD dissertation of Albert Einstein
-                        Einstein's 1905 dissertation, Eine neue Be­stimm­ung der Mol­e­kül­di­men­si­one ("A new deter­mi­na­tion of mo­lec­u­lar di­men­sions")
-                        Einstein's first paper, "Folgerungen aus den Capillaritätserscheinungen" ("Conclusions drawn from the phenomena of capillarity"), in which he proposed a model of intermolecular attraction that he afterwards disavowed as worthless, was published in the journal Annalen der Physik in 1900.His 24-page doctoral dissertation also addressed a topic in molecular physics. Titled "Eine neue Bestimmung der Moleküldimensionen" ("A New Determination of Molecular Dimensions") and dedicated to his friend Marcel Grossman, it was completed on 30 April 1905 and approved by Professor Alfred Kleiner of the University of Zurich three months later. (Einstein was formally awarded his PhD on 15 January 1906.) Four other pieces of work that Einstein completed in 1905—his famous papers on the photoelectric effect, Brownian motion, his special theory of relativity and the equivalence of mass and energy—have led to the year's being celebrated as an annus mirabilis for physics almost as wonderful as 1666 (the year in which Isaac Newton experienced his greatest epiphanies). The publications deeply impressed Einstein's contemporaries
 
-                    </div>
 
-                </div>
-            </section>
-            <br />
+
             <section>
                 <div className="clearfix">
-
+                    <img src={img2} id="image2" className="col-md-5 float-md-end mb-2 ms-md-3" alt="image" />
                     <div className="text"> In July 1912, he returned to his alma mater, the ETH Zurich, to take up a chair in theoretical physics. His teaching activities there centered on thermodynamics and analytical mechanics, and his research interests included the molecular theory of heat, continuum mechanics and the development of a relativistic theory of gravitation. In his work on the latter topic, he was assisted by his friend, Marcel Grossmann, whose knowledge of the kind of mathematics required was greater than his own.
                     </div>
                     <div className="text">
@@ -66,12 +53,12 @@ function career() {
                 </div>
 
             </section>
-            <br /><br />
+            <br />
             <section>
 
-                <h2 className="h2i">1919: Putting general relativity to the test</h2>
+                <h2 className="h2ii">1919: Putting general relativity to the test</h2>
                 <div>
-                    <img src={img4} id="image3" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
+                    <img src={img3} id="image3" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
 
                 </div>
                 <div className="text">
@@ -81,11 +68,11 @@ function career() {
                 </div>
 
             </section>
-            <br /><br />
+            <br />
             <section>
                 <h2 className="h2iii">1921–1923: Coming to terms with fame</h2>
                 <div className="clearfix">
-                    <img src={img6} id="image4" className="col-md-2 float-md-end mb-2 ms-md-3" alt="image" />
+                    <img src={img4} id="image4" className="col-md-3 float-md-end mb-2 ms-md-3" alt="image" />
                     <div className="text">
                         <p>With Eddington's eclipse observations widely reported not just in academic journals but by the popular press as well, Einstein became "perhaps the world's first celebrity scientist", a genius who had shattered a paradigm that had been basic to physicists' understanding of the universe since the seventeenth century.</p>
                         <p>Einstein began his new life as an intellectual icon in America, where he arrived on 2 April 1921. He was welcomed to New York City by Mayor John Francis Hylan, and then spent three weeks giving lectures and attending receptions. He spoke several times at Columbia University and Princeton, and in Washington, he visited the White House with representatives of the National Academy of Sciences. He returned to Europe via London, where he was the guest of the philosopher and statesman Viscount Haldane. He used his time in the British capital to meet several people prominent in British scientific, political or intellectual life, and to deliver a lecture at King's College. In July 1921, he published an essay, "My First Impression of the U.S.A.", in which he sought to sketch the American character, much as had Alexis de Tocqueville in Democracy in America (1835). He wrote of his transatlantic hosts in highly approving terms: "What strikes a visitor is the joyous, positive attitude to life ... The American is friendly, self-confident, optimistic, and without envy."
@@ -101,7 +88,7 @@ function career() {
             <section>
                 <div className="clearfix">
                     <h2 className="h2iv">1922–1932: Serving the League of Nations</h2>
-                    <img src={img7} id="image5" className="col-md-4 float-md-start mb-1 me-md-3" alt="image" />
+                    <img src={img5} id="image5" className="col-md-4 float-md-start mb-1 me-md-3" alt="image" />
                     <div className="text">
                         <p>From 1922 until 1932, with the exception of a few months in 1923 and 1924, Einstein was a member of the Geneva-based International Committee on Intellectual Cooperation of the League of Nations, a group set up by the League to encourage scientists, artists, scholars, teachers and other people engaged in the life of the mind to work more closely with their counterparts in other countries. He was appointed as a German delegate rather than as a representative of Switzerland because of the machinations of two Catholic activists, Oskar Halecki and Giuseppe Motta. By persuading Secretary General Eric Drummond to deny Einstein the place on the committee reserved for a Swiss thinker, they created an opening for Gonzague de Reynold, who used his League of Nations position as a platform from which to promote traditional Catholic doctrine. Einstein's former physics professor Hendrik Lorentz and the Polish chemist Marie Curie were also members of the committee. </p>
                     </div>
@@ -109,7 +96,7 @@ function career() {
             </section>
             <br />
             <section>
-                <h1 className="Header2">Scientific career</h1><hr />
+                <h1 className="Header2">Scientific career</h1><hr className="hr2" />
                 <div className="text">
                     <p>
                         Throughout his life, Einstein published hundreds of books and articles. He published more than 300 scientific papers and 150 non-scientific ones. On 5 December 2014, universities and archives announced the release of Einstein's papers, comprising more than 30,000 unique documents. Einstein's intellectual achievements and originality have made the word "Einstein" synonymous with "genius”. In addition to the work he did by himself he also collaborated with other scientists on additional projects including the Bose–Einstein statistics, the Einstein refrigerator and others.
@@ -120,54 +107,57 @@ function career() {
                 <div className="text">
                     <p>The Annus Mirabilis papers are four articles pertaining to the photoelectric effect (which gave rise to quantum theory), Brownian motion, the special theory of relativity, and E = mc2 that Einstein published in the Annalen der Physik scientific journal in 1905. These four works contributed substantially to the foundation of modern physics and changed views on space, time, and matter. The four papers are:</p>
                 </div>
-                <div className="table">
-                    <table className="table table-bordered  ">
-                        <thead>
-                            <tr>
+                <div className="table-responsive">
+                    <div className="table">
+                        <table className="table table-bordered table-condensed">
+                            <thead>
+                                <tr>
 
-                                <th classscope="col">Title (translated)</th>
-                                <th scope="col">Area of Focus</th>
-                                <th scope="col">Received</th>
-                                <th scope="col">Published</th>
-                                <th scope="col">Significance</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
+                                    <th classscope="col">Title (translated)</th>
+                                    <th scope="col">Area of Focus</th>
+                                    <th scope="col">Received</th>
+                                    <th scope="col">Published</th>
+                                    <th scope="col">Significance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
 
-                                <td>"On a Heuristic Viewpoint Concerning the Production and Transformation of Light"</td>
-                                <td>Photoelectric effect</td>
-                                <td>18 March</td>
-                                <td>9 June</td>
-                                <td>Resolved an unsolved puzzle by suggesting that energy is exchanged only in discrete amounts (quanta).[220] This idea was pivotal to the early development of quantum theory.</td>
-                            </tr>
-                            <tr>
+                                    <td>"On a Heuristic Viewpoint Concerning the Production and Transformation of Light"</td>
+                                    <td>Photoelectric effect</td>
+                                    <td>18 March</td>
+                                    <td>9 June</td>
+                                    <td>Resolved an unsolved puzzle by suggesting that energy is exchanged only in discrete amounts (quanta).[220] This idea was pivotal to the early development of quantum theory.</td>
+                                </tr>
+                                <tr>
 
-                                <td>"On the Motion of Small Particles Suspended in a Stationary Liquid, as Required by the Molecular Kinetic Theory of Hea</td>
-                                <td>Brownian motion</td>
-                                <td>11 May</td>
-                                <td>18 June</td>
-                                <td>Explained empirical evidence for the atomic theory, supporting the application of statistical physics.</td>
-                            </tr>
-                            <tr>
+                                    <td>"On the Motion of Small Particles Suspended in a Stationary Liquid, as Required by the Molecular Kinetic Theory of Hea</td>
+                                    <td>Brownian motion</td>
+                                    <td>11 May</td>
+                                    <td>18 June</td>
+                                    <td>Explained empirical evidence for the atomic theory, supporting the application of statistical physics.</td>
+                                </tr>
+                                <tr>
 
-                                <td>"On the Electrodynamics of Moving Bodies"</td>
-                                <td>Special relativity</td>
-                                <td>30 June</td>
-                                <td>26 September</td>
-                                <td>Reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics by introducing changes to mechanics, resulting from analysis based on empirical evidence that the speed of light is independent of the motion of the observer.[224] Discredited the concept of a "luminiferous ether".</td>
-                            </tr>
-                            <tr>
+                                    <td>"On the Electrodynamics of Moving Bodies"</td>
+                                    <td>Special relativity</td>
+                                    <td>30 June</td>
+                                    <td>26 September</td>
+                                    <td>Reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics by introducing changes to mechanics, resulting from analysis based on empirical evidence that the speed of light is independent of the motion of the observer.[224] Discredited the concept of a "luminiferous ether".</td>
+                                </tr>
+                                <tr>
 
-                                <td>"Does the Inertia of a Body Depend Upon Its Energy Content?"</td>
-                                <td>Matter–energy equivalence</td>
-                                <td>27 September</td>
-                                <td>21 November</td>
-                                <td>	Equivalence of matter and energy, E = mc2, the existence of "rest energy", and the basis of nuclear energy.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                    <td>"Does the Inertia of a Body Depend Upon Its Energy Content?"</td>
+                                    <td>Matter–energy equivalence</td>
+                                    <td>27 September</td>
+                                    <td>21 November</td>
+                                    <td>	Equivalence of matter and energy, E = mc2, the existence of "rest energy", and the basis of nuclear energy.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+                <br />
                 <div className="text">
                     <h2>Statistical mechanics</h2>
                     <p>
@@ -181,7 +171,7 @@ function career() {
                 </div>
 
                 <div className="clearfix">
-                    <img src={img8} id="image6" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
+                    <img src={img6} id="image6" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
                     <h2 className="h2vi">General relativity</h2>
                     <div className="text">
                         <p>General relativity (GR) is a theory of gravitation that was developed by Einstein between 1907 and 1915. According to it, the observed gravitational attraction between masses results from the warping of spacetime by those masses. General relativity has developed into an essential tool in modern astrophysics; it provides the foundation for the current understanding of black holes, regions of space where gravitational attraction is so strong that not even light can escape.</p>
@@ -201,7 +191,7 @@ function career() {
                 <div className="clearfix">
                     <div className="text">
                         <h4>Physical cosmology</h4>
-                        <img src={img9} id="image7" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
+                        <img src={img7} id="image7" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
                         <p>In 1917, Einstein applied the general theory of relativity to the structure of the universe as a whole. He discovered that the general field equations predicted a universe that was dynamic, either contracting or expanding. As observational evidence for a dynamic universe was lacking at the time, Einstein introduced a new term, the cosmological constant, into the field equations, in order to allow the theory to predict a static universe. The modified field equations predicted a static universe of closed curvature, in accordance with Einstein's understanding of Mach's principle in these years. This model became known as the Einstein World or Einstein's static universe.
                             Following the discovery of the recession of the galaxies by Edwin Hubble in 1929, Einstein abandoned his static model of the universe, and proposed two dynamic models of the cosmos, the Friedmann–Einstein universe of 1931 and the Einstein–de Sitter universe of 1932. In each of these models, Einstein discarded the cosmological constant, claiming that it was "in any case theoretically unsatisfactory".
                             In many Einstein biographies, it is claimed that Einstein referred to the cosmological constant in later years as his "biggest blunder", based on a letter George Gamow claimed to have received from him. The astrophysicist Mario Livio has cast doubt on this claim.[257]
@@ -223,9 +213,9 @@ function career() {
                     </p>
                 </div>
                 <div className="clearfix">
-                    <h4 className="h4i">Einstein–Cartan theory</h4>
+                    <h4>Einstein–Cartan theory</h4>
                     <div className="text">
-                        <img src={img10} id="image8" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
+                        <img src={img8} id="image8" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
                         <p>In order to incorporate spinning point particles into general relativity, the affine connection needed to be generalized to include an antisymmetric part, called the torsion. This modification was made by Einstein and Cartan in the 1920s.</p>
                         <h5>Equations of motion</h5>
                         <p>In general relativity, gravitational force is reimagined as curvature of spacetime. A curved path like an orbit is not the result of a force deflecting a body from an ideal straight-line path, but rather the body's attempt to fall freely through a background that is itself curved by the presence of other masses. A remark by John Archibald Wheeler that has become proverbial among physicists summarizes the theory: "Spacetime tells matter how to move; matter tells spacetime how to curve." The Einstein field equations cover the latter aspect of the theory, relating the curvature of spacetime to the distribution of matter and energy. The geodesic equation covers the former aspect, stating that freely falling bodies follow lines that are as straight as possible in a curved spacetime. Einstein regarded this as an "independent fundamental assumption" that had to be postulated in addition to the field equations in order to complete the theory. Believing this to be a shortcoming in how general relativity was originally presented, he wished to derive it from the field equations themselves. Since the equations of general relativity are non-linear, a lump of energy made out of pure gravitational fields, like a black hole, would move on a trajectory which is determined by the Einstein field equations themselves, not by a new law. Accordingly, Einstein proposed that the field equations would determine the path of a singular solution, like a black hole, to be a geodesic. Both physicists and philosophers have often repeated the assertion that the geodesic equation can be obtained from applying the field equations to the motion of a gravitational singularity, but this claim remains disputed. </p>
@@ -236,7 +226,7 @@ function career() {
                 <div className="clearfix">
                     <div className="text">
                         <h4>Old quantum theory</h4>
-                        <img src={img11} id="image9" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
+                        <img src={img9} id="image9" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
                         <p>
                             The photoelectric effect. Incoming photons on the left strike a metal plate (bottom), and eject electrons, depicted as flying off to the right.</p>
                         <p>In a 1905 paper, Einstein postulated that light itself consists of localized particles (quanta). Einstein's light quanta were nearly universally rejected by all physicists, including Max Planck and Niels Bohr. This idea only became universally accepted in 1919, with Robert Millikan's detailed experiments on the photoelectric effect, and with the measurement of Compton scattering.
@@ -256,7 +246,7 @@ function career() {
                     </p>
                     <div className="clearfix">
                         <h4>Wave–particle duality</h4>
-                        <img src={img12} id="image10" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
+                        <img src={img10} id="image10" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
                         <p> Although the patent office promoted Einstein to Technical Examiner Second Class in 1906, he had not given up on academia. In 1908, he became a Privatdozent at the University of Bern. In "Über die Entwicklung unserer Anschauungen über das Wesen und die Konstitution der Strahlung" ("The Development of our Views on the Composition and Essence of Radiation"), on the quantization of light, and in an earlier 1909 paper, Einstein showed that Max Planck's energy quanta must have well-defined momenta and act in some respects as independent, point-like particles. This paper introduced the photon concept (although the name photon was introduced later by Gilbert N. Lewis in 1926) and inspired the notion of wave–particle duality in quantum mechanics. Einstein saw this wave–particle duality in radiation as concrete evidence for his conviction that physics needed a new, unified foundation.</p>
                     </div>
                     <h5>Zero-point energy</h5>
@@ -270,7 +260,7 @@ function career() {
 
                 <div className="clearfix">
                     <div className="text">
-                        <img src={img13} id="image11" className="col-md-2 float-md-end mb-1 ms-md-3" alt="image" />
+                        <img src={img11} id="image11" className="col-md-2 float-md-end mb-1 ms-md-3" alt="image" />
                         <h4>Quantum mechanics</h4>
                         <p>Einstein played a major role in developing quantum theory, beginning with his 1905 paper on the photoelectric effect. However, he became displeased with modern quantum mechanics as it had evolved after 1925, despite its acceptance by other physicists. He was skeptical that the randomness of quantum mechanics was fundamental rather than the result of determinism, stating that God "is not playing at dice".Until the end of his life, he continued to maintain that quantum mechanics was incomplete. </p>
 
@@ -280,7 +270,7 @@ function career() {
 
                         <div>
                             <h5>Einstein–Podolsky–Rosen paradox</h5>
-                            <img src={img14} id="image12" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
+                            <img src={img12} id="image12" className="col-md-4 float-md-start mb-0 me-md-3" alt="image" />
                             <p>Einstein never fully accepted quantum mechanics. While he recognized that it made correct predictions, he believed a more fundamental description of nature must be possible. Over the years he presented multiple arguments to this effect, but the one he preferred most dated to a debate with Bohr in 1930. Einstein suggested a thought experiment in which two objects are allowed to interact and then moved apart a great distance from each other. The quantum-mechanical description of the two objects is a mathematical entity known as a wavefunction. If the wavefunction that describes the two objects before their interaction is given, then the Schrödinger equation provides the wavefunction that describes them after their interaction. But because of what would later be called quantum entanglement, measuring one object would lead to an instantaneous change of the wavefunction describing the other object, no matter how far away it is. Moreover, the choice of which measurement to perform upon the first object would affect what wavefunction could result for the second object. Einstein reasoned that no influence could propagate from the first object to the second instantaneously fast. Indeed, he argued, physics depends on being able to tell one thing apart from another, and such instantaneous influences would call that into question. Because the true "physical condition" of the second object could not be immediately altered by an action done to the first, Einstein concluded, the wavefunction could not be that true physical condition, only an incomplete description of it. </p>
                         </div>
                     </div>
@@ -308,7 +298,7 @@ function career() {
                     <div className="clearfix" >
                         <div className="text">
                             <h5>Einstein–de Haas experiment</h5>
-                            <img src={img15} id="image13" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
+                            <img src={img13} id="image13" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
                             <p>In 1908, Owen Willans Richardson predicted that a change in the magnetic moment of a free body will cause this body to rotate. This effect is a consequence of the conservation of angular momentum and is strong enough to be observable in ferromagnetic materials. Einstein and Wander Johannes de Haas published two papers in 1915 claiming the first experimental observation of the effect. Measurements of this kind demonstrate that the phenomenon of magnetization is caused by the alignment (polarization) of the angular momenta of the electrons in the material along the axis of magnetization. These measurements also allow the separation of the two contributions to the magnetization: that which is associated with the spin and with the orbital motion of the electrons. The Einstein-de Haas experiment is the only experiment conceived, realized and published by Albert Einstein himself.</p>
                             <p>A complete original version of the Einstein-de Haas experimental equipment was donated by Geertruida de Haas-Lorentz, wife of de Haas and daughter of Lorentz, to the Ampère Museum in Lyon France in 1961. It was lost among the museum's holdings and was rediscovered in 2023. </p>
                         </div>

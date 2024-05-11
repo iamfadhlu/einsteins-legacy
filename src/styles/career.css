@@ -1,114 +1,138 @@
-
 /*for  career*/
 #image {
-    height: 60vh;
-    max-width: 100%;
-  
-  }
-  
-  #image2 {
-    max-width: 100%;
-    max-height: 50vh;
-    margin-top: -20px;
-  }
-  
-  #image3 {
-    max-width: 100%;
-    max-height: 50vh;
-  }
-  
-  #image4 {
-    max-width: 100%;
-    max-height: 80vh;
-  }
-  
-  #image5 {
-    max-width: 100%;
-    height: 42vh;
-  }
-  
-  #image6 {
-    max-width: 100%;
-    max-height: 40vh;
-    margin-top: 5%;
-  }
-  
-  #image7 {
-    max-width: 100%;
-    max-height: 90vh;
-  }
-  
-  #image10 {
-    max-width: 100%;
-    height: 35vh;
-  }
-  
-  #image11 {
-    max-width: 100%;
-    height: 25vh;
-  }
-  
-  #image12 {
-    max-width: 100%;
-    height: 30vh;
-  }
-  
-  .Header1 {
-    padding-top: 10px;
-    /* margin-left: 9%; */
-  }
-  
-  .Header2 {
-    padding-top: 10px;
-    /* margin-left: 11%; */
-  }
-  
-  #image14 {
-    max-width: 60%;
-    height: auto;
-  }
-  
-  h1 {
-    text-align: left;
-  }
-  
-  .h2i {
-    margin-right: 20%;
-    text-align: left;
-    /* font-size: ; */
-  }
-  
-  .h2ii {
-    text-align: left;
-  }
-  
-  .h2iii {
-    text-align: left;
-  }
-  
-  .h2iv {
-    text-align: right;
-    margin-right: 10%;
-  }
-  
-  .h2v {
-    text-align: left
-  }
-  
-  .h2vi {
-    text-align: left;
-  }
-  
-  .h4i {
-    text-align: right;
-    margin-right: 59%;
-  }
-  
-  .text {
-    /* margin-top: 10%; */
-    font-size: medium;
-    font-weight: 500;
-    text-align: left;
-  
-  }
-  
+  height: 60vh;
+  max-width: 100%;
+
+}
+
+#image2 {
+  max-width: 100%;
+  max-height: 90vh;
+  margin-top: 20px;
+}
+
+#image3 {
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+#image4 {
+  max-width: 100%;
+  max-height: 90vh;
+  margin-top: 20px;
+}
+
+#image5 {
+  max-width: 100%;
+  height: 42vh;
+}
+
+#image6 {
+  max-width: 100%;
+  max-height: 40vh;
+  margin-top: 5%;
+}
+
+#image7 {
+  max-width: 100%;
+  max-height: 90vh;
+  margin-top: 10px;
+}
+
+#image8 {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+#image9 {
+  max-width: 100%;
+  max-height: 40vh;
+}
+
+#image10 {
+  max-width: 100%;
+  height: 35vh;
+}
+
+#image11 {
+  max-width: 100%;
+  height: 50vh;
+  margin-top: 15px;
+}
+
+#image12 {
+  max-width: 100%;
+  height: 50vh;
+  margin-top: 15px;
+}
+
+#image13 {
+  max-width: 100%;
+  height: 60vh;
+  margin-top: 15px;
+}
+
+#image14 {
+  max-width: 70%;
+  height: auto;
+}
+
+.hr1 {
+  width: 100%;
+  height: 5px;
+  background-color: darkgray;
+}
+
+.hr2 {
+  width: 100%;
+  height: 5px;
+  background-color: darkgray;
+}
+
+.Header1 {
+  padding-top: 10px;
+}
+
+.Header2 {
+  padding-top: 10px;
+}
+
+
+h1 {
+  text-align: left;
+}
+
+.h2i {
+  text-align: left;
+}
+
+.h2ii {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.h2iii {
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.h2iv {
+  text-align: left;
+  margin-right: 10%;
+}
+
+.h2v {
+  text-align: left
+}
+
+.h2vi {
+  text-align: left;
+}
+
+
+.text {
+  font-size: medium;
+  font-weight: 500;
+  text-align: left;
+}
