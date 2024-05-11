@@ -5,6 +5,8 @@ import Life from './components/life/life';
 import Education from './components/education/education';
 import logo from './components/image/atomlogo.png'
 import Career from './components/career/career'
+import Achievement from './components/achievement/achievement'
+import Publications from './components/publications/publication'
 
 
 function App() {
@@ -62,6 +64,8 @@ function App() {
       <section>
         <Career />
       </section>
+      <Achievement />
+      <Publications />
     </div>
 
   );
