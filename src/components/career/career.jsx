@@ -20,7 +20,7 @@ import career_img13 from '../image/Solvay_conference_1927.jpg';
 function career() {
     return (
         <div>
-            <div className="container">
+            <div>
                 <hr className="career-hr" />
                 <h1 className="career-Header">Early academic career (1908-1933): </h1>
                 <div className="clearfix">
@@ -292,7 +292,7 @@ function career() {
                     </div>
 
 
-                    <div className="container">
+
                         <h2>Other investigations</h2>
 
                         Einstein conducted other investigations that were unsuccessful and abandoned. These pertain to force, superconductivity, and other research.
@@ -319,7 +319,7 @@ function career() {
                         <img src={career_graph1} id="career-image14" alt="image" />
 
 
-                    </div>
+            
 
 
 

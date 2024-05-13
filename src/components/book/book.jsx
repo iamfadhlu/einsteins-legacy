@@ -15,8 +15,8 @@ import book12 from "../image/book12.jpg";
 function book() {
   return (
     <div className="container">
-      <hr className="hr1" />
-      <h4 className="sub_heading">These are some books related to Albert Einstein</h4>
+      <hr className="card-hr" />
+      <h4 className="card-sub_heading">These are some books related to Albert Einstein</h4>
       <div className="row">
         <div className="col-xl-3 col-md-6 col-sm-6 book_col">
           <div className="card">
@@ -69,7 +69,7 @@ function book() {
       </div>
 
 
-      <div class="row">
+      <div class="card-row">
         <div className="col-xl-3 col-md-6 col-sm-6  book_col">
           <div className="card" >
             <img src={book5} className="card-img-top" alt="book5" />
@@ -120,7 +120,7 @@ function book() {
         </div>
       </div>
 
-      <div class="row">
+      <div class="card-row">
         <div className="col-xl-3 col-md-6 col-sm-6  book_col">
           <div className="card" >
             <img src={book9} className="card-img-top" alt="book9" />

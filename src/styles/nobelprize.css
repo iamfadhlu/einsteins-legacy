@@ -1,10 +1,10 @@
-.txt1 {
+.achievement-txt1 {
   font-size: medium;
   font-weight: 500;
   text-align: left;
 }
 
-.txt2 {
+.achivement-txt2 {
   padding-top: 3%;
   font-size: medium;
   font-weight: 500;
@@ -12,7 +12,7 @@
 
 }
 
-.hr2 {
+.achievement-hr {
   height: 2px;
   background-color: darkgray;
 

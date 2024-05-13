@@ -46,6 +46,11 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#books">Books</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link " aria-current="page"href="#nobelprize" >
+                  Nobel prize
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -53,26 +58,23 @@ function App() {
 
 
       <Carousel />
-      <br />
-      <h1 id="life" >Einstein's Life </h1>
       <Life />
       
-      <h2 id="education">Einstein's Education</h2>
       <Education />
       
-      <h2 id="career">Einstein's Career</h2>
-      <Career />
+      {/* <h2 id="career">Einstein's Career</h2>
+      <Career /> */}
 
-      <h2 id="achievements">Einstein's Achievements</h2>
-      <Achievement />
+      {/* <h2 id="achievements">Einstein's Achievements</h2>
+      <Achievement /> */}
 
-      <h2 id="nobelprize">Einstein's Nobel Prize</h2>
-      <Nobelprize/>
+      {/* <h2 id="nobelprize">Einstein's Nobel Prize</h2>
+      <Nobelprize/> */}
 
-
+{/* 
       <h2 id="books">Einstein's Books</h2>
       <Books /> 
-
+ */}
 
 
 

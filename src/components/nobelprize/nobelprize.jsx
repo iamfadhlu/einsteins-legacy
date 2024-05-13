@@ -5,13 +5,13 @@ import award from "../image/download.png";
 function nobelprize() {
   return (
     <div className="container">
-        <hr className="hr2" />
+        <hr className="achievement-hr" />
       <div className="row">
         <div className="col-xl-6 col-md-12 col-sm-12">
           <img className="einstein_award_png" src={award} alt="award" />
         </div>
         <div className="col-xl-6 col-md-12 col-sm-12">
-          <div className="txt1">
+          <div className="achievement-txt1">
             In 1922 Albert Einstein was awarded the 1921 Nobel Prize in Physics,
             "for his services to Theoretical Physics, and especially for his
             discovery of the law of the photoelectric effect". This refers to
@@ -23,7 +23,7 @@ function nobelprize() {
             philosophical circles [and] also has astrophysical implications
             which are being rigorously examined at the present time".
           </div>
-          <div className="txt2">
+          <div className="achievement-txt2">
           It was long reported that in accord with the divorce settlement,
           the Nobel Prize money had been deposited in a Swiss bank account for
           his wife Mileva Marić to invest for herself and their two sons, while

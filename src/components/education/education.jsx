@@ -9,15 +9,9 @@ function education() {
     return (
         <div>
             <div className="container" >
-                <hr />
                 <div className="clearfix">
                     <img src={education_einstein_school} className="col-md-6 float-md-end mb-3 ms-md-3 einstein_school_png" alt="..." />
-                    <section className="Education-text" >
-                        Albert attended Petersschule on Blumenstrasse, a Catholic elementary school in Munich from the age of five.
-                        When he was eight, he was transferred to the Luitpold Gymnasium, where he received advanced primary and then secondary school education.
-                        In 1894, Hermann and Jakob's company tendered for a contract to install electric lighting in Munich, but without success—they lacked the capital that would have been required to update their technology from direct current to the more efficient, alternating current alternative.
-
-                    </section>
+     
                     <section className="Education-text">
                         <p />The failure of their bid forced them to sell their Munich factory and search for new opportunities elsewhere.
                         The Einstein family moved to Italy, first to Milan and a few months later to Pavia, where they settled in Palazzo Cornazzani.
