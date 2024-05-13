@@ -31,9 +31,6 @@ function carousel() {
         </div>
     
     </div>
-
-
-
   )
 }
 

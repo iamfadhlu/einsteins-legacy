@@ -58,27 +58,6 @@ function App() {
 
 
       <Carousel />
-      <Life />
-      
-      <Education />
-      
-      {/* <h2 id="career">Einstein's Career</h2>
-      <Career /> */}
-
-      {/* <h2 id="achievements">Einstein's Achievements</h2>
-      <Achievement /> */}
-
-      {/* <h2 id="nobelprize">Einstein's Nobel Prize</h2>
-      <Nobelprize/> */}
-
-{/* 
-      <h2 id="books">Einstein's Books</h2>
-      <Books /> 
- */}
-
-
-
-
     </div>
 
   );
