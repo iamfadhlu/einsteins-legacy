@@ -1,144 +1,116 @@
-.Header1 {
+.career-Header {
   padding-top: 10px;
 }
 
-hr{
-  height: 4px;
-}
 
-.text {
+.career-text {
   font-size: medium;
   font-weight: 500;
   text-align: left;
 }
 
- #image {
-
+#career-image {
   height: 50vh;
-  
+  max-width: 100%;
+}
 
-}  
-
-#image2 {
+#career-image2 {
   max-width: 100%;
   max-height: 90vh;
   margin-top: 20px;
 }
 
-#image3 {
+#career-image3 {
   max-width: 100%;
   max-height: 50vh;
 }
 
-#image4 {
+#career-image4 {
   max-width: 100%;
   max-height: 90vh;
   margin-top: 20px;
 }
 
-#image5 {
+#career-image5 {
   max-width: 100%;
   height: 42vh;
 }
 
-#image6 {
+#career-image6 {
   max-width: 100%;
   max-height: 40vh;
   margin-top: 5%;
 }
 
-#image7 {
+#career-image7 {
   max-width: 100%;
   max-height: 90vh;
   margin-top: 10px;
 }
 
-#image8 {
+#career-image8 {
   margin-top: 10px;
   max-width: 100%;
 }
 
-#image9 {
+#career-image9 {
   max-width: 100%;
   max-height: 40vh;
 }
 
-#image10 {
+#career-image10 {
   max-width: 100%;
   height: 35vh;
 }
 
-#image11 {
+#career-image11 {
   max-width: 100%;
   height: 50vh;
   margin-top: 15px;
 }
 
-#image12 {
+#career-image12 {
   max-width: 100%;
   height: 50vh;
   margin-top: 15px;
 }
 
-#image13 {
+#career-image13 {
   max-width: 100%;
   height: 60vh;
   margin-top: 15px;
 }
 
-#image14 {
+#career-image14 {
   max-width: 70%;
   height: auto;
 }
 
-.hr2 {
-  height: 2px;
-  background-color: darkgray;
-}
-
-
-.hr2 {
-  width: 100%;
+.career-hr {
   height: 5px;
   background-color: darkgray;
 }
 
-
-.Header2 {
-  padding-top: 10px;
-}
-
-
-h1 {
-  text-align: left;
-}
-
-.h2i {
-  text-align: left;
-}
-
-.h2ii {
+.career-subheading1 {
   margin-bottom: 20px;
   text-align: left;
 }
 
 
-.h2iii {
+.career-subheading2 {
   text-align: left;
   margin-bottom: -10px;
 }
 
-.h2iv {
+.career-subheading3 {
   text-align: left;
   margin-right: 10%;
 }
 
-.h2v {
-  text-align: left
-}
-
-.h2vi {
+.career-subheading4 {
   text-align: left;
 }
 
- 
+.career-subheading5 {
+  text-align: left;
+}

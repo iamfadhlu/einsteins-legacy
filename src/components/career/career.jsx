@@ -13,7 +13,7 @@ import career_img9 from '../image/440px-Photoelectric_effect_in_a_solid_-_diagra
 import career_img10 from '../image/Albert_Einstein_1921_(re-cropped).jpg';
 import career_img11 from '../image/anothernews.jpg';
 import career_img12 from '../image/Niels_Bohr_Albert_Einstein4_by_Ehrenfest_cr.jpg';
-import careet_img13 from '../image/Solvay_conference_1927.jpg';
+import career_img13 from '../image/Solvay_conference_1927.jpg';
 
 
 
@@ -24,7 +24,7 @@ function career() {
                 <hr className="career-hr" />
                 <h1 className="career-Header">Early academic career (1908-1933): </h1>
                 <div className="clearfix">
-                    <img src={career_img} id="career-image" className=" col-xl-6  col-md-6  col-sm-12`   float-md-start mb-3 me-md-3 " alt="" />
+                    <img src={career_img1} id="career-image" className=" col-xl-6  col-md-6  col-sm-12`   float-md-start mb-3 me-md-1 " alt="" />
                     <section className="career-text">
                         Einstein's career sent him to multiple countries.He earned his doctorate from the University of Zurich in 1905 and subsequently took on professor positions in Zurich (1909), Prague (1911) and Zurich again (1912).
                         Einstein's sabbatical as a civil servant approached its end in 1908, when he secured a junior teaching position at the University of Bern.
@@ -164,7 +164,7 @@ function career() {
                         </div>
                     </div>
                     <br />
-                    <div className="text">
+                    <div className="career-text">
                         <h2>Statistical mechanics</h2>
                         <p>
                             Thermodynamic fluctuations and statistical physics
@@ -177,15 +177,15 @@ function career() {
                     </div>
 
                     <div className="clearfix">
-                        <img src={img6} id="image6" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
-                        <h2 className="h2vi">General relativity</h2>
-                        <div className="text">
+                        <img src={career_img6} id="career-image6" className="col-md-3 float-md-end mb-1 ms-md-3" alt="image" />
+                        <h2 className="career-subheading5">General relativity</h2>
+                        <div className="career-text">
                             <p>General relativity (GR) is a theory of gravitation that was developed by Einstein between 1907 and 1915. According to it, the observed gravitational attraction between masses results from the warping of spacetime by those masses. General relativity has developed into an essential tool in modern astrophysics; it provides the foundation for the current understanding of black holes, regions of space where gravitational attraction is so strong that not even light can escape.</p>
                             <p>As Einstein later said, the reason for the development of general relativity was that the preference of inertial motions within special relativity was unsatisfactory, while a theory which from the outset prefers no state of motion (even accelerated ones) should appear more satisfactory. Consequently, in 1907 he published an article on acceleration under special relativity. In that article titled "On the Relativity Principle and the Conclusions Drawn from It", he argued that free fall is really inertial motion, and that for a free-falling observer the rules of special relativity must apply. This argument is called the equivalence principle. In the same article, Einstein also predicted the phenomena of gravitational time dilation, gravitational redshift and gravitational lensing.
                                 In 1911, Einstein published another article "On the Influence of Gravitation on the Propagation of Light" expanding on the 1907 article, in which he estimated the amount of deflection of light by massive bodies. Thus, the theoretical prediction of general relativity could for the first time be tested experimentally.</p>
                         </div>
                     </div>
-                    <div className="text">
+                    <div className="career-text">
                         <h5>Gravitational waves</h5>
                         <p>In 1916, Einstein predicted gravitational waves, ripples in the curvature of spacetime which propagate as waves, traveling outward from the source, transporting energy as gravitational radiation. The existence of gravitational waves is possible under general relativity due to its Lorentz invariance which brings the concept of a finite speed of propagation of the physical interactions of gravity with it. By contrast, gravitational waves cannot exist in the Newtonian theory of gravitation, which postulates that the physical interactions of gravity propagate at infinite speed.
                             The first, indirect, detection of gravitational waves came in the 1970s through observation of a pair of closely orbiting neutron stars, PSR B1913+16. The explanation for the decay in their orbital period was that they were emitting gravitational waves. Einstein's prediction was confirmed on 11 February 2016, when researchers at LIGO published the first observation of gravitational waves, detected on Earth on 14 September 2015, nearly one hundred years after the prediction.</p>
@@ -195,9 +195,9 @@ function career() {
 
                     </div>
                     <div className="clearfix">
-                        <div className="text">
+                        <div className="career-text">
                             <h4>Physical cosmology</h4>
-                            <img src={img7} id="image7" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
+                            <img src={career_img7} id="career-image7" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
                             <p>In 1917, Einstein applied the general theory of relativity to the structure of the universe as a whole. He discovered that the general field equations predicted a universe that was dynamic, either contracting or expanding. As observational evidence for a dynamic universe was lacking at the time, Einstein introduced a new term, the cosmological constant, into the field equations, in order to allow the theory to predict a static universe. The modified field equations predicted a static universe of closed curvature, in accordance with Einstein's understanding of Mach's principle in these years. This model became known as the Einstein World or Einstein's static universe.
                                 Following the discovery of the recession of the galaxies by Edwin Hubble in 1929, Einstein abandoned his static model of the universe, and proposed two dynamic models of the cosmos, the Friedmann–Einstein universe of 1931 and the Einstein–de Sitter universe of 1932. In each of these models, Einstein discarded the cosmological constant, claiming that it was "in any case theoretically unsatisfactory".
                                 In many Einstein biographies, it is claimed that Einstein referred to the cosmological constant in later years as his "biggest blunder", based on a letter George Gamow claimed to have received from him. The astrophysicist Mario Livio has cast doubt on this claim.[257]
@@ -207,7 +207,7 @@ function career() {
                         </div>
                     </div>
 
-                    <div className="text">
+                    <div className="career-text">
                         <h4>Energy momentum pseudotensor</h4>
                         <p>
                             Main article: Stress–energy–momentum pseudotensor
@@ -220,8 +220,8 @@ function career() {
                     </div>
                     <div className="clearfix">
                         <h4>Einstein–Cartan theory</h4>
-                        <div className="text">
-                            <img src={img8} id="image8" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
+                        <div className="career-text">
+                            <img src={career_img8} id="career-image8" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
                             <p>In order to incorporate spinning point particles into general relativity, the affine connection needed to be generalized to include an antisymmetric part, called the torsion. This modification was made by Einstein and Cartan in the 1920s.</p>
                             <h5>Equations of motion</h5>
                             <p>In general relativity, gravitational force is reimagined as curvature of spacetime. A curved path like an orbit is not the result of a force deflecting a body from an ideal straight-line path, but rather the body's attempt to fall freely through a background that is itself curved by the presence of other masses. A remark by John Archibald Wheeler that has become proverbial among physicists summarizes the theory: "Spacetime tells matter how to move; matter tells spacetime how to curve." The Einstein field equations cover the latter aspect of the theory, relating the curvature of spacetime to the distribution of matter and energy. The geodesic equation covers the former aspect, stating that freely falling bodies follow lines that are as straight as possible in a curved spacetime. Einstein regarded this as an "independent fundamental assumption" that had to be postulated in addition to the field equations in order to complete the theory. Believing this to be a shortcoming in how general relativity was originally presented, he wished to derive it from the field equations themselves. Since the equations of general relativity are non-linear, a lump of energy made out of pure gravitational fields, like a black hole, would move on a trajectory which is determined by the Einstein field equations themselves, not by a new law. Accordingly, Einstein proposed that the field equations would determine the path of a singular solution, like a black hole, to be a geodesic. Both physicists and philosophers have often repeated the assertion that the geodesic equation can be obtained from applying the field equations to the motion of a gravitational singularity, but this claim remains disputed. </p>
@@ -230,9 +230,9 @@ function career() {
                     </div>
 
                     <div className="clearfix">
-                        <div className="text">
+                        <div className="career-text">
                             <h4>Old quantum theory</h4>
-                            <img src={img9} id="image9" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
+                            <img src={career_img9} id="career-image9" className="col-md-3 float-md-start mb-1 me-md-3" alt="image" />
                             <p>
                                 The photoelectric effect. Incoming photons on the left strike a metal plate (bottom), and eject electrons, depicted as flying off to the right.</p>
                             <p>In a 1905 paper, Einstein postulated that light itself consists of localized particles (quanta). Einstein's light quanta were nearly universally rejected by all physicists, including Max Planck and Niels Bohr. This idea only became universally accepted in 1919, with Robert Millikan's detailed experiments on the photoelectric effect, and with the measurement of Compton scattering.
@@ -244,7 +244,7 @@ function career() {
                         </div>
                     </div>
 
-                    <div className="text">
+                    <div className="career-text">
                         <h5>Bose–Einstein statistics</h5>
 
                         <p>In 1924, Einstein received a description of a statistical model from Indian physicist Satyendra Nath Bose, based on a counting method that assumed that light could be understood as a gas of indistinguishable particles. Einstein noted that Bose's statistics applied to some atoms as well as to the proposed light particles, and submitted his translation of Bose's paper to the Zeitschrift für Physik. Einstein also published his own articles describing the model and its implications, among them the Bose–Einstein condensate phenomenon that some particulates should appear at very low temperatures. It was not until 1995 that the first such condensate was produced experimentally by Eric Allin Cornell and Carl Wieman using ultra-cooling equipment built at the NIST–JILA laboratory at the University of Colorado at Boulder. Bose–Einstein statistics are now used to describe the behaviors of any assembly of bosons. Einstein's sketches for this project may be seen in the Einstein Archive in the library of the Leiden University.
@@ -252,7 +252,7 @@ function career() {
                         </p>
                         <div className="clearfix">
                             <h4>Wave–particle duality</h4>
-                            <img src={img10} id="image10" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
+                            <img src={career_img10} id="career-image10" className="col-md-2 float-md-start mb-1 me-md-3" alt="image" />
                             <p> Although the patent office promoted Einstein to Technical Examiner Second Class in 1906, he had not given up on academia. In 1908, he became a Privatdozent at the University of Bern. In "Über die Entwicklung unserer Anschauungen über das Wesen und die Konstitution der Strahlung" ("The Development of our Views on the Composition and Essence of Radiation"), on the quantization of light, and in an earlier 1909 paper, Einstein showed that Max Planck's energy quanta must have well-defined momenta and act in some respects as independent, point-like particles. This paper introduced the photon concept (although the name photon was introduced later by Gilbert N. Lewis in 1926) and inspired the notion of wave–particle duality in quantum mechanics. Einstein saw this wave–particle duality in radiation as concrete evidence for his conviction that physics needed a new, unified foundation.</p>
                         </div>
                         <h5>Zero-point energy</h5>
@@ -265,8 +265,8 @@ function career() {
                     </div>
 
                     <div className="clearfix">
-                        <div className="text">
-                            <img src={img11} id="image11" className="col-md-2 float-md-end mb-1 ms-md-3" alt="image" />
+                        <div className="career-text">
+                            <img src={career_img11} id="career-image11" className="col-md-2 float-md-end mb-1 ms-md-3" alt="image" />
                             <h4>Quantum mechanics</h4>
                             <p>Einstein played a major role in developing quantum theory, beginning with his 1905 paper on the photoelectric effect. However, he became displeased with modern quantum mechanics as it had evolved after 1925, despite its acceptance by other physicists. He was skeptical that the randomness of quantum mechanics was fundamental rather than the result of determinism, stating that God "is not playing at dice".Until the end of his life, he continued to maintain that quantum mechanics was incomplete. </p>
 
@@ -276,13 +276,13 @@ function career() {
 
                             <div>
                                 <h5>Einstein–Podolsky–Rosen paradox</h5>
-                                <img src={img12} id="image12" className="col-md-4 float-md-start mb-0 me-md-3" alt="image" />
+                                <img src={career_img12} id="career-image12" className="col-md-4 float-md-start mb-0 me-md-3" alt="image" />
                                 <p>Einstein never fully accepted quantum mechanics. While he recognized that it made correct predictions, he believed a more fundamental description of nature must be possible. Over the years he presented multiple arguments to this effect, but the one he preferred most dated to a debate with Bohr in 1930. Einstein suggested a thought experiment in which two objects are allowed to interact and then moved apart a great distance from each other. The quantum-mechanical description of the two objects is a mathematical entity known as a wavefunction. If the wavefunction that describes the two objects before their interaction is given, then the Schrödinger equation provides the wavefunction that describes them after their interaction. But because of what would later be called quantum entanglement, measuring one object would lead to an instantaneous change of the wavefunction describing the other object, no matter how far away it is. Moreover, the choice of which measurement to perform upon the first object would affect what wavefunction could result for the second object. Einstein reasoned that no influence could propagate from the first object to the second instantaneously fast. Indeed, he argued, physics depends on being able to tell one thing apart from another, and such instantaneous influences would call that into question. Because the true "physical condition" of the second object could not be immediately altered by an action done to the first, Einstein concluded, the wavefunction could not be that true physical condition, only an incomplete description of it. </p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="text">
+                    <div className="career-text">
                         <p>A more famous version of this argument came in 1935, when Einstein published a paper with Boris Podolsky and Nathan Rosen that laid out what would become known as the EPR paradox. In this thought experiment, two particles interact in such a way that the wavefunction describing them is entangled. Then, no matter how far the two particles were separated, a precise position measurement on one particle would imply the ability to predict, perfectly, the result of measuring the position of the other particle. Likewise, a precise momentum measurement of one particle would result in an equally precise prediction for of the momentum of the other particle, without needing to disturb the other particle in any way. They argued that no action taken on the first particle could instantaneously affect the other, since this would involve information being transmitted faster than light, which is forbidden by the theory of relativity. They invoked a principle, later known as the "EPR criterion of reality", positing that: "If, without in any way disturbing a system, we can predict with certainty (i.e., with probability equal to unity) the value of a physical quantity, then there exists an element of reality corresponding to that quantity." From this, they inferred that the second particle must have a definite value of both position and of momentum prior to either quantity being measured. But quantum mechanics considers these two observables incompatible and thus does not associate simultaneous values for both to any system. Einstein, Podolsky, and Rosen therefore concluded that quantum theory does not provide a complete description of reality. </p>
                         <p>In 1964, John Stewart Bell carried the analysis of quantum entanglement much further. He deduced that if measurements are performed independently on the two separated particles of an entangled pair, then the assumption that the outcomes depend upon hidden variables within each half implies a mathematical constraint on how the outcomes on the two measurements are correlated. This constraint would later be called a Bell inequality. Bell then showed that quantum physics predicts correlations that violate this inequality. Consequently, the only way that hidden variables could explain the predictions of quantum physics is if they are "nonlocal", which is to say that somehow the two particles are able to interact instantaneously no matter how widely they ever become separated. Bell argued that because an explanation of quantum phenomena in terms of hidden variables would require nonlocality, the EPR paradox "is resolved in the way which Einstein would have liked least".
                             Despite this, and although Einstein personally found the argument in the EPR paper overly complicated, that paper became among the most influential papers published in Physical Review. It is considered a centerpiece of the development of quantum information theory. </p>
@@ -302,21 +302,21 @@ function career() {
 
 
                         <div className="clearfix" >
-                            <div className="text">
+                            <div className="career-text">
                                 <h5>Einstein–de Haas experiment</h5>
-                                <img src={img13} id="image13" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
+                                <img src={career_img13} id="career-image13" className="col-md-4 float-md-end mb-1 ms-md-3" alt="image" />
                                 <p>In 1908, Owen Willans Richardson predicted that a change in the magnetic moment of a free body will cause this body to rotate. This effect is a consequence of the conservation of angular momentum and is strong enough to be observable in ferromagnetic materials. Einstein and Wander Johannes de Haas published two papers in 1915 claiming the first experimental observation of the effect. Measurements of this kind demonstrate that the phenomenon of magnetization is caused by the alignment (polarization) of the angular momenta of the electrons in the material along the axis of magnetization. These measurements also allow the separation of the two contributions to the magnetization: that which is associated with the spin and with the orbital motion of the electrons. The Einstein-de Haas experiment is the only experiment conceived, realized and published by Albert Einstein himself.</p>
                                 <p>A complete original version of the Einstein-de Haas experimental equipment was donated by Geertruida de Haas-Lorentz, wife of de Haas and daughter of Lorentz, to the Ampère Museum in Lyon France in 1961. It was lost among the museum's holdings and was rediscovered in 2023. </p>
                             </div>
                         </div>
 
-                        <div className="text">
+                        <div className="career-text">
                             <h5>Einstein as an inventor</h5>
                             <p>In 1926, Einstein and his former student Leó Szilárd co-invented (and in 1930, patented) the Einstein refrigerator. This absorption refrigerator was then revolutionary for having no moving parts and using only heat as an input. On 11 November 1930, U.S. patent 1,781,541 was awarded to Einstein and Leó Szilárd for the refrigerator. Their invention was not immediately put into commercial production, but the most promising of their patents were acquired by the Swedish company Electrolux. </p>
                             <p>Einstein also invented an electromagnetic pump, sound reproduction device, and several other household devices. </p>
                         </div>
 
-                        <img src={graph1} id="image14" alt="image" />
+                        <img src={career_graph1} id="career-image14" alt="image" />
 
 
                     </div>
