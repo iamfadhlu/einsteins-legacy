@@ -1,11 +1,8 @@
 import React from "react";
-import award from "../image/download.png";
 import '../../styles/achievement.css';
 function achievement() {
   return (
     <div className="container">
-      <br /><br />
-      <h1 className="heading1">Einstein's Achievements</h1>
       <hr className="hr2" />
       <ol class="list-group list-group-numbered list-group list-group list-group-flush">
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -102,39 +99,8 @@ function achievement() {
           </div>
         </li>
       </ol>
-      <h1 className="heading1">Einstein's Nobel Prize</h1>
-      <hr className="hr2" />
-      <br />
-      <div className="row">
-        <div className="col-xl-6 col-md-12 col-sm-12">
-          <img className="einstein_png" src={award} alt="award" />
-        </div>
-        <div className="col-xl-6 col-md-12 col-sm-12">
-          <div className="txt1">
-            In 1922 Albert Einstein was awarded the 1921 Nobel Prize in Physics,
-            "for his services to Theoretical Physics, and especially for his
-            discovery of the law of the photoelectric effect". This refers to
-            his 1905 paper on the photoelectric effect, "On a Heuristic
-            Viewpoint Concerning the Production and Transformation of Light",
-            which was well supported by the experimental evidence by that time.
-            The presentation speech began by mentioning "his theory of
-            relativity [which had] been the subject of lively debate in
-            philosophical circles [and] also has astrophysical implications
-            which are being rigorously examined at the present time".
-          </div>
-          <div className="txt2">
-          It was long reported that in accord with the divorce settlement,
-          the Nobel Prize money had been deposited in a Swiss bank account for
-          his wife Mileva Marić to invest for herself and their two sons, while
-          she could only use the capital by agreement with Einstein. However,
-          personal correspondence made public in 2006 shows that he invested
-          much of it in the United States, and saw much of it wiped out in the
-          Great Depression. Ultimately, however, he paid Marić more money than
-          he received with the prize.
-          </div>
-        </div>
-      </div>
-      <br /><br />
+     
+      
     </div>
   );
 }

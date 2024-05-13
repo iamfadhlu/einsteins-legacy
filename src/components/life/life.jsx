@@ -8,9 +8,9 @@ function life() {
 
         <div>
             <div className="container">
-                
-                <div className="subheading1"> (Childhood,Youth and Education)</div>
-                <hr className="hr1"></hr>
+
+                <div className="subheading1">(Childhood,Youth and Education)</div>
+                <hr />
 
                 <br />
                 <div className="container">
@@ -22,7 +22,7 @@ function life() {
                         </section>
 
                         <section className="text">
-                            In 1880, the family moved to Munich's borough of Ludwigsvorstadt-Isarvorstadt, where Einstein's father and his uncle Jakob founded Elektrotechnische Fabrik J. Einstein & Cie,
+                            <p />In 1880, the family moved to Munich's borough of Ludwigsvorstadt-Isarvorstadt, where Einstein's father and his uncle Jakob founded Elektrotechnische Fabrik J. Einstein & Cie,
                             a company that manufactured electrical equipment based on direct current.
                         </section>
 
